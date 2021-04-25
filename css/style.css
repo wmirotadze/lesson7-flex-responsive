@@ -1,0 +1,54 @@
+.background{
+	background-image: url("../images/Group 5.jpg");
+	height: 900px;
+	width: 1280px;
+	background-color: #0000FD;
+}
+.navigation{
+	display: flex;
+	justify-content: space-between;
+}
+.nav{
+	margin-top: 70.3px;
+	margin-right: 142.5px;
+	display: flex;
+	width: 332px;
+	height: 16px;
+	justify-content: space-between;
+}
+.logo{
+	margin-top: 51px;
+	margin-left: 57px;
+}
+.img-title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container1{
+	display: flex;
+	width: 1280px;
+	height: 601.44px;
+	background-color: grey;
+}
+.left{
+	width: 640px;
+	height: 601.44px;
+	background-color: yellow;
+}
+.right{
+	width: 640px;
+	height: 601.44px;
+	background-color: lightblue;
+}
+.container2{
+	margin: 76px 54px 120px 55px;
+	width: 1171px;
+	height: 965px;
+	background-color: orange;
+}
+.title-container{
+	/*display: flex;*/
+	justify-content: center;
+	/*align-items: flex-start;*/
+}
