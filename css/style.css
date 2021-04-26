@@ -1,54 +1,79 @@
 .background{
 	background-image: url("../images/Group 5.jpg");
-	height: 900px;
 	width: 1280px;
-	background-color: #0000FD;
+	height: 900px;
+	position: relative;
 }
 .navigation{
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 .nav{
-	margin-top: 70.3px;
-	margin-right: 142.5px;
+	margin-top: 70px;
+	margin-right: 142px;
 	display: flex;
 	width: 332px;
 	height: 16px;
 	justify-content: space-between;
 }
+.nav a{
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #D9F0FF;
+}
 .logo{
+	height: 37px;
+	width: 118px;
 	margin-top: 51px;
 	margin-left: 57px;
+	font-size: 28px;
+	color: #D9F0FF;
 }
 .img-title{
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 1017px;
+	height: 145px;
+	text-align: center;
+	font: normal normal 300 100px/133px Lato;
+	letter-spacing: -5px;
+	color: #FFFFFF;
 }
-.container1{
+.container-center{
 	display: flex;
 	width: 1280px;
-	height: 601.44px;
-	background-color: grey;
+	height: 601px;
 }
 .left{
 	width: 640px;
-	height: 601.44px;
-	background-color: yellow;
+	height: 601px;
+}
+.left h2{
+	margin: 90px 86px;
+	font: normal normal 300 50px/67px Lato;
+}
+.left p{
+	margin: 24px 97px 0 86px;
+	font: normal normal normal 16px/25px Poppins;
+	letter-spacing: 0.16px;
+	opacity: 0.5;
 }
 .right{
+	background-image: url("../images/Rectangle 2.jpg");
 	width: 640px;
-	height: 601.44px;
-	background-color: lightblue;
+	height: 601px;
 }
-.container2{
+.container-bottom{
 	margin: 76px 54px 120px 55px;
 	width: 1171px;
 	height: 965px;
 	background-color: orange;
 }
 .title-container{
-	/*display: flex;*/
+	display: flex;
 	justify-content: center;
-	/*align-items: flex-start;*/
+	align-items: flex-start;
 }
