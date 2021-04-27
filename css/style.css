@@ -91,13 +91,31 @@
 	height: 601px;
 }
 .container-bottom{
+	position: relative;
 	margin: 76px 54px 120px 55px;
 	width: 1171px;
 	height: 965px;
 	background-color: orange;
 }
 .title-container{
-	display: flex;
-	justify-content: center;
-	align-items: flex-start;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	width: 771px;
+	height: 130px;
+}
+.title{
+	margin: 0 auto;
+	width: 570px;
+	height: 50px;
+	text-align: center;
+	font: normal normal 300 35px/47px Lato;
+}
+.text{
+	width: 771px;
+	height: 71px;
+	text-align: center;
+	font: normal normal normal 16px/25px Poppins;
+	letter-spacing: 0.16px;
+	opacity: 0.65;
 }
