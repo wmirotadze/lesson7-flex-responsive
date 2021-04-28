@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .background{
 	background-image: url("../images/Group 5.jpg");
 	width: 1280px;
@@ -5,17 +12,27 @@
 	position: relative;
 }
 .navigation{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 .nav{
 	margin-top: 70px;
 	margin-right: 142px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	width: 332px;
 	height: 16px;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 }
 .nav a{
 	text-transform: uppercase;
@@ -34,7 +51,9 @@
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
 	width: 1017px;
 	height: 145px;
 	text-align: center;
@@ -43,6 +62,8 @@
 	color: #FFFFFF;
 }
 .container-center{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	width: 1280px;
 	height: 601px;
@@ -97,7 +118,9 @@
 .title-container{
 	position: absolute;
 	left: 50%;
-	transform: translate(-50%);
+	-webkit-transform: translate(-50%);
+	    -ms-transform: translate(-50%);
+	        transform: translate(-50%);
 	width: 771px;
 	height: 130px;
 }
@@ -118,25 +141,41 @@
 }
 .row1{
 	position: absolute;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	top: 192px;
 	width: 1171px;
 	height: 374px;
 }
 .row2{
 	position: absolute;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	top: 591px;
 	width: 1171px;
 	height: 374px;
 }
 .tile{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	top: 25px;
 	width: 371px;
 	height: 374px;
@@ -154,9 +193,15 @@
 	opacity: 0.65;
 }
 .icon{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	width: 88px;
 	height: 88px;
 	border-radius: 44px;
