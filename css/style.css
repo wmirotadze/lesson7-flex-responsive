@@ -7,14 +7,17 @@
 
 .background{
 	background-image: url("../images/Group 5.jpg");
-	width: 1280px;
+	max-width: 1280px;
+	width: 100%;
 	height: 900px;
 	position: relative;
+	background-size: cover;
 }
 .navigation{
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	max-width: 90%;
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
@@ -22,19 +25,25 @@
 	    -ms-flex-align: center;
 	        align-items: center;
 }
-.nav{
-	margin-top: 70px;
-	margin-right: 142px;
+.nav-wrapper{
+	margin: 70px 30px 0 30px;
+	width: 332px;
+	height: 16px;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.nav-ul {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	width: 332px;
-	height: 16px;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
-	        justify-content: space-between;
+	justify-content: space-between;	
 }
-.nav a{
+.nav-li a {
 	text-transform: uppercase;
 	font: medium 12px/16px Poppins;
 	color: #D9F0FF;
@@ -54,7 +63,7 @@
 	-webkit-transform: translate(-50%, -50%);
 	    -ms-transform: translate(-50%, -50%);
 	        transform: translate(-50%, -50%);
-	width: 1017px;
+	max-width: 1017px;
 	height: 145px;
 	text-align: center;
 	font: 300 100px/133px Lato;
@@ -65,11 +74,13 @@
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	width: 1280px;
+	max-width: 1280px;
+	width: 100%;
 	height: 601px;
 }
 .left{
-	width: 640px;
+	max-width: 640px;
+	width: 50%;
 	height: 601px;
 }
 .left h2{
@@ -106,7 +117,8 @@
 }
 .right{
 	background-image: url("../images/Rectangle 2.jpg");
-	width: 640px;
+	max-width: 640px;
+	width: 50%;
 	height: 601px;
 }
 .container-bottom{
